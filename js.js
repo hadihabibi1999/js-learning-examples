@@ -24,6 +24,7 @@ console.log(filter);
 
 //promise
 */
+/*
 let user = {
     name:'hadi',
     do(){
@@ -37,5 +38,16 @@ let talkFunction = function (){
 }
 let talk = talkFunction.bind(user);
 talk();
-
-
+*/
+let user = {
+    firstName: "John",
+    sayHi() {
+      alert(`Hello, ${this.firstName}!`);
+    }
+  };
+  
+  function name () {
+      alert('hi')
+  }
+  setTimeout(name, 5000); // Hello, undefined
+  name();
