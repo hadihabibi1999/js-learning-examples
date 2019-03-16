@@ -1,5 +1,5 @@
 
-/*
+
 let array = [
     {name:'hadi' , age:19},
     {name:'peyman',age :22},
@@ -23,22 +23,36 @@ console.log(filter);
 
 
 //promise
-*/
+
 /*
 let user = {
     name:'hadi',
     do(){
-        console.log(`hi ${this.name}`)
+        alert(`hi ${this.name}`)
     }
 }
-//let talkFunction = user.do();
 
+let talk = function() {
+    alert(`hello ${this.name} ...`)
+}
+
+
+let bound = talk.bind(user);
+//let bound = user.do();
+
+bound();
+    
+    */
+    
+    /*
 let talkFunction = function (){
     console.log(`hi ${this.name}`)
 }
 let talk = talkFunction.bind(user);
 talk();
 */
+
+/*
 let user = {
     firstName: "John",
     sayHi() {
@@ -46,8 +60,9 @@ let user = {
     }
   };
   
-  function name () {
+
+  let name = function  () {
       alert('hi')
   }
-  setTimeout(name, 5000); // Hello, undefined
-  name();
+  setTimeout(name, 5000); 
+  */
