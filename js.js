@@ -1,5 +1,5 @@
 
-
+/*
 let array = [
     {name:'hadi' , age:19},
     {name:'peyman',age :22},
@@ -23,6 +23,20 @@ console.log(filter);
 
 
 //promise
+*/
+//this... more practies:
+let name1= {
+    name:'hadi'
+}
+
+let name2  = name1.name;
+function ali () {
+    alert(name2)
+}
+
+let fatemeh = ali.bind(name1);
+
+fatemeh();
 
 /*
 let user = {
