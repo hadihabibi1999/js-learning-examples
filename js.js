@@ -79,3 +79,28 @@ let user = {
   }
   setTimeout(name, 5000); 
   */
+ class A {
+    constructor(name, car, familyy){
+      this.name = 'peyman';
+    }
+  
+    call(){
+      console.log('hello');
+    }
+  
+    hadi(){
+      console.log('bmw');
+    }
+  }
+  
+  class B extends A {
+      constructor(){
+        super('peyman', 'bmw', 'ghazvini');
+      }
+  }
+  
+  
+  const newB = new B();
+  
+  newB.call();
+  newB.hadi();
