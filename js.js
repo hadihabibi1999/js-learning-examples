@@ -25,6 +25,10 @@ console.log(filter);
 //promise
 */
 //this... more practies:
+
+
+
+/*
 let name1= {
     name:'hadi'
 }
@@ -38,7 +42,9 @@ let fatemeh = ali.bind(name1);
 
 fatemeh();
 
-/*
+*/
+
+
 let user = {
     name:'hadi',
     do(){
@@ -55,16 +61,9 @@ let bound = talk.bind(user);
 //let bound = user.do();
 
 bound();
+
     
-    */
     
-    /*
-let talkFunction = function (){
-    console.log(`hi ${this.name}`)
-}
-let talk = talkFunction.bind(user);
-talk();
-*/
 
 /*
 let user = {
