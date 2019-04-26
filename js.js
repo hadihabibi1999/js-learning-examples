@@ -52,15 +52,15 @@ let user = {
     }
 }
 
-let talk = function() {
-    alert(`hello ${this.name} ...`)
+let talk = function(name) {
+    alert(`hello ${this.name} and ... ${name}`)
 }
 
 
 let bound = talk.bind(user);
 //let bound = user.do();
 
-bound();
+bound("ali");
 
     
     
