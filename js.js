@@ -1,5 +1,5 @@
 
-/*
+
 let array = [
     {name:'hadi' , age:19},
     {name:'peyman',age :22},
@@ -23,7 +23,7 @@ console.log(filter);
 
 
 //promise
-*/
+
 //this... more practies:
 
 
@@ -43,7 +43,7 @@ let fatemeh = ali.bind(name1);
 fatemeh();
 
 */
-
+/*
 
 let user = {
     name:'hadi',
@@ -62,7 +62,7 @@ let bound = talk.bind(user);
 
 bound("ali");
 
-    
+ */   
     
 
 /*
@@ -79,6 +79,7 @@ let user = {
   }
   setTimeout(name, 5000); 
   */
+ /*
  class A {
     constructor(name, car, familyy){
       this.name = 'peyman';
@@ -104,3 +105,4 @@ let user = {
   
   newB.call();
   newB.hadi();
+  */
