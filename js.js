@@ -1,5 +1,5 @@
 
-
+/*
 let array = [
     {name:'hadi' , age:19},
     {name:'peyman',age :22},
@@ -24,10 +24,10 @@ console.log(filter);
 
 //promise
 
-//this... more practies:
+//this ... more practies:
 
 
-
+*/
 /*
 let name1= {
     name:'hadi'
@@ -38,9 +38,9 @@ function ali () {
     alert(name2)
 }
 
-let fatemeh = ali.bind(name1);
+//let fatemeh = ali.bind(name1);
 
-fatemeh();
+ali();
 
 */
 /*
@@ -58,14 +58,15 @@ let talk = function(name) {
 
 
 let bound = talk.bind(user);
-//let bound = user.do();
+//let bound = user.do;
 
 bound("ali");
+//talk("ali");
 
- */   
-    
+ 
+    */
 
-/*
+
 let user = {
     firstName: "John",
     sayHi() {
@@ -73,12 +74,10 @@ let user = {
     }
   };
   
+let hi = user.sayHi.bind(user);
 
-  let name = function  () {
-      alert('hi')
-  }
-  setTimeout(name, 5000); 
-  */
+  setTimeout(hi, 2000); 
+  
  /*
  class A {
     constructor(name, car, familyy){
